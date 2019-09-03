@@ -42,6 +42,7 @@ cp stream-receiver/target/kylin-stream-receiver-${version}-all.jar build/lib/str
 # Copied file becomes 000 for some env (e.g. my Cygwin)
 chmod 644 build/lib/kylin-job-${version}.jar
 chmod 644 build/lib/kylin-coprocessor-${version}.jar
+chmod 644 build/lib/kylin-storage-stream-${version}.jar
 chmod 644 build/lib/kylin-jdbc-${version}.jar
 chmod 644 build/tool/kylin-tool-${version}.jar
 chmod 644 build/lib/kylin-datasource-sdk-${version}.jar
